@@ -1,0 +1,51 @@
+.header-container {
+  height: 10vh;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 10vh;
+}
+
+.header-player {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.player-avatar {
+  height: 8vh;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  padding: 0.3em;
+  margin-top: 3em;
+}
+
+.player-name {
+  color: white;
+  margin-right: 1vw;
+  margin-top: 2.5em;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 4px;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 414px) {
+  .header-container {
+    width: auto;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    
+  }
+
+  .header-player {
+    display: none;
+  }
+
+}

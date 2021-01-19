@@ -1,0 +1,78 @@
+.level-choice-container {
+  width: 30em;
+  height: 10em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .15);
+	backdrop-filter: blur(5px);
+}
+
+.ButtonsLevelChoice-body{  
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  display: flex;
+  background: transparent;
+  border: none;
+}
+
+.ButtonsLevelChoice-body  {
+  padding: 10px 20px 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1em;
+
+}
+
+.ButtonsLevelChoice-inside {
+  padding: 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1em;
+  background: transparent;
+  border: none;
+  margin: 0.5em;
+}
+
+.button-wrap {
+  display: flex;
+  border: none;
+  border-right: 1px solid white;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+}
+
+
+
+.hardcore {
+  border-right: none;
+}
+
+.ButtonsLevelChoice-inside:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 414px) {
+  .level-choice-container {
+    height: auto;
+  }
+  .ButtonsLevelChoice-body {
+    overflow: scroll;
+  }
+ .button-wrap {
+    border: none;;
+ }
+
+ .ButtonsLevelChoice-body {
+   flex-direction: column;
+
+ }
+}
+

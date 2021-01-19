@@ -1,0 +1,23 @@
+.modal-icon{
+  color:#fff;
+  font-size: 2em;
+  position: absolute;
+  left: 10%;
+  top: 3%;
+  cursor: pointer;
+}
+
+.modal-icon:hover{
+  color:#f8cf17;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+    .modal-icon {
+      left: 5%;
+      top: 2%;
+    }   
+}

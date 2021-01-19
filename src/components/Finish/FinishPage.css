@@ -1,0 +1,25 @@
+.backgroundFinish{
+  height: 100vh;
+  background-image: linear-gradient(to right top, #1e2845, #26375e, #2c4777, #305892, #3269ae);  display: flex;
+  flex-direction: column;
+}
+
+.finish-container h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+
+.finish-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vw;
+}
+
+.finish-page-items {
+  padding-bottom: 1em;
+}

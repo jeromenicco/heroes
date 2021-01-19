@@ -1,0 +1,45 @@
+.avatar-container {
+    background-color: rgba(255, 255, 255, .15);
+	backdrop-filter: blur(5px);
+    max-width: 30em;
+    min-height: 15em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+.avatar-choice-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgBox {
+    width: 6.5em;
+    height: 6.5em;
+    margin:10px;
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.yourAvatar{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.yourAvatar:focus {
+    transform: scale(1.1);
+}
+  
+.imgBox:hover img{
+	transform: scale(1.1);
+  }
+   

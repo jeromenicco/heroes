@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-function App() {
+import FinishPage from './components/Finish/FinishPage'
+import FormPage from './components/Form/FormPage'
+import GamePage from './components/Game/GamePage'
+import HomePage from './components/Home/HomePage'
+import ResultPage from './components/Result/ResultPage'
+
+import './App.css'
+
+
+function App(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/FormPage" component={FormPage} />
+        <Route path="/GamePage" component={GamePage} />
+        <Route path="/FinishPage" component={FinishPage} /> 
+        <Route path="/ResultPage" component={ResultPage} /> 
+      </Switch>
+     
     </div>
   );
 }

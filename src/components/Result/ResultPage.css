@@ -1,0 +1,6 @@
+.backgroundResult{
+  height: 100vh;
+  background-image: linear-gradient(to right top, #1e2845, #26375e, #2c4777, #305892, #3269ae);  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

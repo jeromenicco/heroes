@@ -1,0 +1,29 @@
+.button-container {
+  min-height: 27em;
+}
+
+.panelChoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  height: 30em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 770px) {
+  .panelChoice{
+      width: 70%;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      margin: auto;
+      margin-top: 0;
+      padding-top: 8vh
+  };
+  .button-container {
+      width: 70%;
+  }
+}
+

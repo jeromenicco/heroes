@@ -1,0 +1,28 @@
+.sBlock
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.sButton {
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-decoration: transparent;
+    border-radius: 15px;
+    transition: 0.4s ease;
+}
+
+.sButton:hover {
+    color: black;
+    background: white;
+}
+

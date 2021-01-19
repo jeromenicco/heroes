@@ -1,0 +1,155 @@
+.headerHome{
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  height: 10vh;
+  margin: auto;
+}
+
+
+.headerHome .text-support{
+  position: absolute;
+  left: 17%;
+}
+
+.modal-icon{
+  z-index: 1;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .modal-icon{
+      left: 5%;
+      top: 2%; 
+  }
+  .icon-support{
+      left: 5%;
+      top: 2%;
+  }
+  .icon-user{
+      right: 5%;
+      top: 2%;
+  }
+  .icon-sound{
+      right: 20%;
+      top: 2%;
+  }
+
+  .modal-holder{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  .modal-holder .modal {
+      left: 5vw;       
+  }
+  .modal{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90vw;
+      margin: 0;
+      padding: 0;
+  }
+  .modal__header h3{
+      font-size: 1.2em;
+      margin-top: 40px;
+  }
+  .modal__header {
+      font-size: 1.2em;
+      padding: 0px 3px;
+  }
+
+  .modal__close {
+      position: absolute;
+      top: .5rem;
+      right: 1.25rem;
+      font-size: 1.2em;
+      padding: 0px 2px;
+  }
+
+  .modal__description {
+      text-align: justify;
+      padding: 5px;
+      margin-left: 10px;
+  }
+
+  .modal .modal__description .icons{
+      margin-left: .5rem;
+      color: rgba(248,207,23);
+  }
+  .modal__description .range{
+      padding-left: 5px;
+  }
+  .modal__description .text{
+      display: none;
+  }
+  .modal__description .txthide{
+      display: none;
+  }
+
+  .modal__description .form{
+      padding-bottom: 10px;
+  }
+  .modal__description h3{
+      font-size: 1em;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+
+  .modal-icon{
+      left: 15%;
+      top: 5%; 
+  }
+  .icon-support{
+      left: 5%;
+      top: 5%;
+  }
+  .icon-user{
+      right: 5%;
+      top: 5%;
+  }
+  .icon-sound{
+      right: 15%;
+      top: 5%;
+  }
+
+  .text-support{
+      display: none;
+  }
+
+  .modal-holder{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  .modal-holder .modal {
+      left: 5vw;       
+  }
+  .modal{
+      width: 90vw;
+      margin: 0;
+      padding: 0;
+  }
+  .modal__description .text{
+      padding: 10px;
+  }
+  .modal__description .range{
+      padding:5px 10px 5px 15px;
+  }
+  .modal__description .txthide{
+      display: none;
+  }
+
+
+}
+
+@media screen and (max-width: 414px) {
+    .headerHome  {
+        width: 100%;
+    }
+
+}

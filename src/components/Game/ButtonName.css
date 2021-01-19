@@ -1,0 +1,50 @@
+.buttonList {
+  height: auto;
+  padding: 10px;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  height: auto; 
+  width: 200px;
+  border-radius: 8px;
+  background-color: white;
+  border: solid 5px #ffffff;
+}
+.button:hover {
+  border: solid 5px #3836fd;
+}
+.yellow {
+  border: solid 5px #f8cf17;
+}
+
+.yellow:focus {
+  border: solid 5px #f8cf17;
+}
+.red:focus {
+  border: solid 5px #f30003;
+}
+
+.button:focus {
+  outline: none;
+}
+
+/* @media (hover: hover) {
+  .button:hover {
+      border: solid 5px #3836fd;
+  }
+} */
+
+@media screen and (max-width: 770px) {
+  .buttonList {
+      width: 40vw;
+      padding: 2%;
+  }
+  
+  .button {
+      font-size: 6vw;
+      width: 100%; 
+      height: auto;
+     }
+}

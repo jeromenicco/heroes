@@ -1,0 +1,17 @@
+.backgroundHome{
+  height: 100vh;
+  background-image: linear-gradient(to right top, #1e2845, #26375e, #2c4777, #305892, #3269ae);
+
+}
+
+.home-container {   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
